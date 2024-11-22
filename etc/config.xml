@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Store:etc/config.xsd">
+  <default>
+    <awesoft>
+      <developer>
+        <use_whoops>1</use_whoops>
+        <whoops_editor>phpstorm</whoops_editor>
+      </developer>
+    </awesoft>
+  </default>
+</config>

@@ -1,0 +1,21 @@
+{
+  "name": "awesoft/module-developer",
+  "description": "A module for Magento 2 that integrates various developer tools.",
+  "type": "magento2-module",
+  "version": "1.0.0",
+  "require": {
+    "filp/whoops": "^2.16",
+    "magento/module-developer": "100.4.*"
+  },
+  "license": [
+    "MIT"
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "Awesoft\\Developer\\": ""
+    }
+  }
+}

@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Config:etc/system_file.xsd">
+  <system>
+    <section id="dev">
+      <group id="awesoft" translate="label" type="text" sortOrder="10" showInDefault="1">
+        <label>Awesoft Developer Settings</label>
+        <field id="use_whoops" translate="label" type="select" sortOrder="10" showInDefault="1" canRestore="1">
+          <label>Use Whoops</label>
+          <config_path>awesoft/developer/use_whoops</config_path>
+          <source_model>Magento\Config\Model\Config\Source\Yesno</source_model>
+          <comment>
+            <![CDATA[<a href="https://filp.github.io/whoops/" target="_blank">Whoops</a> - PHP errors for cool kids]]>
+          </comment>
+        </field>
+        <field id="whoops_editor" translate="label" type="select" sortOrder="20" showInDefault="1" canRestore="1">
+          <label>Open In Editor</label>
+          <source_model>Awesoft\Developer\Model\Config\Source\Editors</source_model>
+          <config_path>awesoft/developer/whoops_editor</config_path>
+        </field>
+      </group>
+    </section>
+  </system>
+</config>
